@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "VehiclePro Nepal",
+    "slug": "vehiclepro-nepal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/icon.svg",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./public/icon.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vehiclepro.nepal"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/icon.svg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vehiclepro.nepal"
+    },
+    "web": {
+      "favicon": "./public/icon.svg"
+    },
+    "scheme": "vehiclepro",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
+
